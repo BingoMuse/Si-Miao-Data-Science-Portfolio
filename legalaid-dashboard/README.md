@@ -1,4 +1,4 @@
-### 3. [LegalAid Call Flow Visualization]
+### LegalAid Call Flow Visualization
 * **Context:** Coursework (Social Impact)
 * **Objective:** Designed an interactive Power BI dashboard to visualize call center data for LegalAid, an organization providing legal services for low-income and vulnerable residents in Chicago. Implemented **drill-down features** to track call flows, identifying specific bottlenecks in client service and resource allocation.
 * **Key Techniques:** Data Modeling (DAX), Interactive Dashboarding, Drill-through Analysis.
