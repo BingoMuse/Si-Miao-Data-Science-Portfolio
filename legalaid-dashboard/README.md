@@ -6,7 +6,7 @@
 * **Note on Data Privacy:** *Due to the sensitive nature of legal client data, the raw `.pbix` file and datasets are not included in this repository. Below are static demonstrations of the dashboard's functionality and logic.*
 
 ## 📸 Dashboard Demo
-![Drill Down Demo](./images/drill_down.gif)`
+![Drill Down Demo](./images/drill_down.gif)
 
 ### Feature Highlight: Call Flow Drill-Down
 To solve the issue of unexplained dropped calls, I built a hierarchy that allows users to drill down from:
@@ -14,4 +14,4 @@ To solve the issue of unexplained dropped calls, I built a hierarchy that allows
 2.  **Drill-Down:** Specific Call Types (Housing, Family Law, etc.).
 3.  **Leaf Level:** Outcome Status (Resolved, Dropped, Voicemail).
 
-![Dashboard Overview](./images/dashboard_main.png)`
+![Dashboard Overview](./images/dashboard_main.png)
