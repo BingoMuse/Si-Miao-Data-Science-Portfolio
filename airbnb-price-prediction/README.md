@@ -1,6 +1,6 @@
 ### [Airbnb Price Prediction (Regression)](./regression-prediction-project)
 * **Context:** Coursework (Prediction Competition)
-* **Objective:** Built a regression model to predict Airbnb listing prices based on property and host characteristics.
+* **Objective:** Built a regression model to predict 6,000+ Airbnb listing prices based on 50+ property and host characteristics.
 * **Key Techniques:**
     * **Feature Engineering:** Extracted quantitative features from unstructured text (e.g., bathroom counts, verification methods) and created ratio-based metrics (e.g., `bedroom_to_guest_ratio`).
     * **Preprocessing:** Implemented robust pipelines for missing value imputation and One-Hot Encoding.
