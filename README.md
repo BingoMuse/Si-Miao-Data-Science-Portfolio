@@ -19,5 +19,5 @@ Welcome to my portfolio. This repository contains a collection of my independent
 ### 3. [LegalAid Call Flow Visualization](./legalaid-dashboard)
 * **Context:** Coursework (Social Impact)
 * **Objective:** Designed an interactive Power BI dashboard to visualize call center data for LegalAid, an organization providing legal services for low-income and vulnerable residents in Chicago. Implemented **drill-down features** to track call flows, identifying specific bottlenecks in client service and resource allocation.
-* **Key Techniques:** Data Modeling (DAX), Interactive Dashboarding, Drill-through Analysis.
-* **Tools:** Microsoft Power BI.
+* **Key Techniques:** Hierarchical Drill-downs, Sequential Data Mapping, Call Lifecycle Analysis
+* **Tools:** Microsoft Power BI, Data Modeling (DAX), ETL (Python/Pandas)
