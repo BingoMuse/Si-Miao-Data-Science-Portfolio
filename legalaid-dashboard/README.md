@@ -6,14 +6,14 @@
 ### Project Objective
 Designed an interactive Power BI dashboard to visualize call flow data for LegalAid, an organization providing legal services to low-income residents in Chicago. The goal was to translate raw call logs into actionable insights to improve operational efficiency, specifically by rationalizing low-volume lines and optimizing the "Main Number" routing system.
 
-### 📸 Dashboard Demo
-![Drill Down Functionality Demo](./images/drill_down.gif)
-
-### Technical Implementation & Data Transformation
+### Technical Implementation
 To ensure the dashboard accurately reflected the client experience, significant data preprocessing was required before visualization:
 * **Sequential Flow Mapping:** Processed the `AllCallsData` dataset to map linear journeys for every call. Transformed the data so each row represents a complete flow (Intake Number → Transfer 1 → Transfer 2 → Transfer 3), allowing for precise tracking of call depth.
 * **Termination Logic:** Implemented an "Ended" category for every sequential step. This logic distinguishes between a call being successfully resolved/dropped at step *n* versus being transferred to step *n+1*, enabling precise visualization of drop-off rates at every stage.
 * **Data Integrity:** Corrected initial data handling issues by removing duplicated "legs" for transfer numbers. This ensured that originating and terminating records were not double-counted, resulting in a strictly accurate count of unique connections.
+
+### 📸 Dashboard Demo
+![Drill Down Functionality Demo](./images/drill_down.gif)
 
 ### Feature Highlight: Unified Call Flow Drill-Down
 To solve the complexity of analyzing scattered routing paths, I developed a unified drill-down hierarchy. This single interactive chart allows stakeholders to trace the full lifecycle of a call from intake to final termination:

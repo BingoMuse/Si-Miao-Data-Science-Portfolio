@@ -1,12 +1,15 @@
 # Bicycle Sales Cohort & RFM Analysis
+* **Context:** Customer Analytics Project
+* **Tools:** Python (Pandas, NumPy), Visualization (Matplotlib, Seaborn)
+* **Key Techniques:** Cohort Analysis, RFM Modeling, Data Imputation
 
 ## Project Overview
 This project involves a comprehensive analysis of transaction, customer demographic, and customer address data for a cycling accessories organization. The primary goal is to understand customer behavior, identify key retention patterns, and segment customers based on value.
 
-## Data Cleaning & Preparation
-Before analysis, the dataset underwent rigorous cleaning:
-* **Imputation:** Missing gender values were imputed using a gender-guessing library based on first names. Outlier ages (e.g., 125 years old) were replaced with the median age of relevant job industry categories.
-* **Standardization:** Handled inconsistent column headers and converted data types for numerical/date columns.
+## Technical Implementation
+* **Data Cleaning:** Handled inconsistent headers and standardized data types for numerical/date columns.
+* **Advanced Imputation:** Imputed missing gender values using a first-name guessing library and replaced outlier ages (e.g., 125 years old) with industry-specific median ages.
+* **EDA:** Explored distributions of `list_price`, `standard_cost`, and `profit`, and mapped state-wise property valuation patterns.
 
 ## Key Findings
 
@@ -32,12 +35,7 @@ An RFM (Recency, Frequency, Monetary) model was built to segment customers into 
 * **Profit Drivers:** Affluent female customers in VIC and affluent male customers in QLD generated the highest profit.
 * **Low Performers:** Male customers with high net worth tended to contribute the *lowest* profit in the low-value group, suggesting a potential engagement gap.
 
-## Exploratory Data Analysis (EDA) Highlights
+### Exploratory Data Analysis (EDA) Highlights
 * **Univariate & Multivariate Analysis:** Explored distributions of `list_price`, `standard_cost`, and `profit`.
 * **Demographics:** Analyzed relationships between `wealth_segment`, `owns_car`, `job_industry_category`, and purchasing behavior.
 * **Geographic:** Mapped state-wise distribution and property valuation patterns.
-
-## Technologies Used
-* **Python** (Pandas, NumPy)
-* **Visualization** (Matplotlib, Seaborn)
-* **Techniques** (Cohort Analysis, RFM Modeling, Data Imputation)

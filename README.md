@@ -1,4 +1,4 @@
-# Si Miao - Data Science Portfolio
+# Si (Muse) Miao - Data Science Portfolio
 
 Welcome to my portfolio. This repository contains a collection of my independent analysis and academic projects, showcasing my work in predictive modeling, customer analytics, and data engineering.
 
