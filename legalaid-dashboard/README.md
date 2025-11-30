@@ -21,7 +21,9 @@ To solve the complexity of analyzing scattered routing paths, I developed a unif
 2.  **Flow Depth:** Visualization of the transfer network, identifying where calls are routed (e.g., Housing vs. Family Law).
 3.  **Micro Level:** Outcome status (Resolved, Voicemail, Transferred) at the leaf level.
 
-![Dashboard Overview Static](./images/dashboard_main.png)
+![Dashboard Overview Static](./images/dashboard_main_macro.png)
+![Dashboard Overview Static](./images/dashboard_main_first_transfer.png)
+![Dashboard Overview Static](./images/dashboard_main_second_transfer.png)
 
 ### Key Insights & Impact
 The analysis provided data-backed recommendations for LegalAid’s resource allocation:
