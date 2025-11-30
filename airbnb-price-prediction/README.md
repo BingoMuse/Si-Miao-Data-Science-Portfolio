@@ -1,4 +1,4 @@
-### [Airbnb Price Prediction (Regression)](./regression-prediction-project)
+### [Airbnb Price Prediction (Regression)](./airbnb-price-prediction)
 * **Context:** Coursework (Prediction Competition)
 * **Objective:** Built a regression model to predict 6,000+ Airbnb listing prices based on 50+ property and host characteristics.
 * **Key Techniques:**
