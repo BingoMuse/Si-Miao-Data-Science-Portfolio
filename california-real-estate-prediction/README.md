@@ -16,7 +16,6 @@ Developed a machine learning model to predict the close price of single-family r
 * Reached an **R² of 0.87**, demonstrating high predictive power for real-world property valuation.
 
 ### Visual Performance
-<p float="left">
-  <img src="images/actual_vs_predicted.png" width="48%" />
-  <img src="images/feature_importance.png" width="48%" /> 
-</p>
+<img src="images/actual_vs_predicted.png" width="50%" />
+<br>
+<img src="images/feature_importance.png" width="70%" />
