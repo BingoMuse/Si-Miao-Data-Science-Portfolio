@@ -18,6 +18,6 @@ Built a deep learning classification pipeline to categorize chest X-rays into th
 
 ### Visual Performance
 <p float="left">
-  <img src="images/training_curves.png" width="70%" />
-  <img src="images/roc_curves.jpg" width="70%" />
+  <img src="images/training_curves.png" width="90%" />
+  <img src="images/roc_curves.jpg" width="90%" />
 </p>
