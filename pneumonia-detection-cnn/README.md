@@ -2,7 +2,7 @@
 * **Context:** Academic Project (Coursework - STAT 362 Advanced Machine Learning)
 * **Tools:** Python, PyTorch, DenseNet121, Pandas, Scikit-Learn
 * **Key Techniques:** Convolutional Neural Networks (CNN), Transfer Learning, Class Weighting, Data Augmentation
-* **Presentation:** [📄 View Project Slides (PDF)](pneumonia-detection-cnn/presentation/pneumonia-detection-cnn-presentation.pdf)
+* **Presentation:** [📄 View Project Slides (PDF)](presentation/pneumonia-detection-cnn-presentation.pdf)
 
 ### Project Objective
 Built a deep learning classification pipeline to categorize chest X-rays into three clinically distinct classes: **Normal**, **Pneumonia (Lung Opacity)**, and **Other Pathology**. The goal was to automate the screening process and reduce diagnostic time for lung conditions.
