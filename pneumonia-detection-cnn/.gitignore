@@ -1,0 +1,43 @@
+# --- Operating System Junk ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Desktop.ini
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+anaconda3/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# --- Data & Large Files (Optional but Recommended) ---
+# Prevent uploading massive datasets by accident
+# Keep your 'data' folder structure, but ignore the files inside
+data/*.csv
+data/*.zip
+data/*.tar.gz
+*.pkl
+*.h5
+*.dcm
+
+# --- IDE Settings (VS Code, PyCharm) ---
+.vscode/
+.idea/
+
+# --- Environment Variables (Security) ---
+.env
+.env.local
