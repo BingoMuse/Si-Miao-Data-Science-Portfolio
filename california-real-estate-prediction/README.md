@@ -14,3 +14,9 @@ Developed a machine learning model to predict the close price of single-family r
 ### Performance
 * Achieved a Median Absolute Percentage Error (**MdAPE**) of **7.7%** on the middle 99% of test data, reducing the error rate by **67%** compared to the linear regression baseline (23.6%).
 * Reached an **R² of 0.87**, demonstrating high predictive power for real-world property valuation.
+
+### Visual Performance
+<p float="left">
+  <img src="images/actual_vs_predicted.png" width="48%" />
+  <img src="images/feature_importance.png" width="48%" /> 
+</p>
