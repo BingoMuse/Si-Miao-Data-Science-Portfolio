@@ -1,15 +1,26 @@
 ## Pneumonia Detection from Chest X-Rays (Computer Vision)
-* **Context:** Academic Project (Coursework - STAT 362)
+* **Context:** Academic Project (Coursework - STAT 362 Advanced Machine Learning)
 * **Tools:** Python, PyTorch, DenseNet121, Pandas, Scikit-Learn
 * **Key Techniques:** Convolutional Neural Networks (CNN), Transfer Learning, Class Weighting, Data Augmentation
+* **Presentation:** [📄 View Project Slides (PDF)](pneumonia-detection-cnn/presentation/pneumonia-detection-cnn-presentation.pdf)
 
 ### Project Objective
 Built a deep learning classification pipeline to categorize chest X-rays into three clinically distinct classes: **Normal**, **Pneumonia (Lung Opacity)**, and **Other Pathology**. The goal was to automate the screening process and reduce diagnostic time for lung conditions.
 
+### Dataset & Setup
+The project utilizes the **[RSNA Pneumonia Detection Challenge](https://www.kaggle.com/competitions/rsna-pneumonia-detection-challenge/overview)** dataset (Kaggle), consisting of ~26,000 DICOM images.
+
+**Reproducibility Instructions:**
+1.  **Download:** Access the data via the [Kaggle Data Page](https://www.kaggle.com/competitions/rsna-pneumonia-detection-challenge/data).
+2.  **Organize:** Unzip files and place them in a `data/` directory (or Google Drive for Colab) ensuring the following structure:
+    * `stage_2_train_images/` (Directory containing .dcm images)
+    * `stage_2_detailed_class_info.csv`
+    * `stage_2_train_labels.csv`
+
 ### Technical Implementation
-* **Data Processing:** Processed the **RSNA Pneumonia Detection Challenge** dataset (26,684 unique DICOM images). Implemented a custom PyTorch `Dataset` class to handle DICOM loading and applied **intense data augmentation** (rotation ±15°, zoom ±10%, horizontal flip) to address class imbalance and overfitting.
-* **Model Architecture:** Utilized a pre-trained **DenseNet121** (ImageNet weights) as the backbone for feature extraction. Replaced the classifier head with a custom fully connected block (`Linear` → `ReLU` → `Dropout(0.4)` → `Linear`) to map features to the 3 target classes.
-* **Optimization:** Trained with **Cross-Entropy Loss** weighted by class inverse frequency to penalize misclassifying the minority "Pneumonia" class. Used the **AdamW** optimizer with a `ReduceLROnPlateau` scheduler.
+* **Data Processing:** Processed 26,684 unique DICOM images using a custom PyTorch `Dataset` class. Implemented **intense data augmentation** (rotation ±15°, zoom ±10%, horizontal flip) to address class imbalance and combat overfitting.
+* **Model Architecture:** Utilized a pre-trained **DenseNet121** (ImageNet weights) as the backbone. Replaced the classifier head with a custom fully connected block (`Linear` → `ReLU` → `Dropout(0.4)` → `Linear`) to map features to the 3 target classes.
+* **Optimization:** Trained using **Cross-Entropy Loss** weighted by class inverse frequency to penalize misclassifying the minority "Pneumonia" class. Employed the **AdamW** optimizer with a `ReduceLROnPlateau` scheduler.
 
 ### Performance
 * **Test Accuracy:** 73.3% (Multi-class), significantly outperforming the baseline CNN accuracy of 52.7%.
