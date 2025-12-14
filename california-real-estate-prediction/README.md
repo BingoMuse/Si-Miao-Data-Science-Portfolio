@@ -2,6 +2,7 @@
 * **Context:** Professional Experience (Internship at IDX Exchange)
 * **Tools:** Python, LightGBM, Scikit-Learn, Pandas
 * **Key Techniques:** Automated Valuation Modeling (AVM), Gradient Boosting, Outlier Detection
+* **Presentation:** [📄 View Project Slides (PDF)](presentation/california-real-estate-presentation.pdf)
 
 ### Project Objective
 Developed a machine learning model to predict the close price of single-family residences in California using 10 months of proprietary transaction data from the California Regional Multiple Listing Service (CRMLS).
